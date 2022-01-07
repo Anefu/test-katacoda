@@ -1,6 +1,6 @@
 {
-  "title": "Beginner Commands",
-  "description": "to get familiar with linux projects",
+  "title": "Project 1",
+  "description": "",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
@@ -19,7 +19,6 @@
       },
       {
         "title": "Step 4",
-        "courseData": "step4back.sh",
         "text": "step4.md"
       },
       {
