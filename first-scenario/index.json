@@ -2,7 +2,7 @@
   "title": "Beginner Commands",
   "description": "to get familiar with linux projects",
   "difficulty": "Beginner",
-  "time": "1 hour",
+  "time": "30 minutes",
   "details": {
     "steps": [
       {
@@ -19,6 +19,7 @@
       },
       {
         "title": "Step 4",
+        "courseData": "step4-back.sh",
         "text": "step4.md"
       },
       {

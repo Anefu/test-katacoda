@@ -1,1 +1,5 @@
->> Can you print out the current working directory that you are in currently? (Terminal) <<
+>> How many files are in your current directory? <<
+( ) 3
+(*) 0
+( ) 1
+( ) 2

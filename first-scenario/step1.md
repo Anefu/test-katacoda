@@ -1,5 +1,5 @@
 >>Which command would you use to move from one directory to another? <<
-( ) cd
+(*) cd
 ( ) ls
-(*) mv
+( ) mv
 ( ) mkdir
