@@ -17,5 +17,5 @@ See some examples below (clickling the button automatically executes the command
 Here's another example  
   
 `whatis mv`{{execute}}  
-
   
+`whatis pwd`{{execute}}  
