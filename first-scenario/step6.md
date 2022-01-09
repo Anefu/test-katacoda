@@ -1,8 +1,11 @@
-### copy this command paste it into the terminal
-`cd /home/ubuntu/test-user`{{copy}}
+# Locating files
+### find Command
+**find** is used to search for files. You could specify regex expressions and every file that matches that expression will be returned.  
 
-mover this folder around
-changing directory
-list a directory from your working directory
-
-
+`find . -name file1`{{execute}}  
+`find . file*`{{execute}}  
+  
+The **-name** flag tells the command to search for specific name (file1 in this case). Notice we specified the path to search for the file after the **find** command as **.**.  
+  
+Search for files inside the pbl directory  
+`find pbl file*`{{execute}}
