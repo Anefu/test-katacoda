@@ -9,7 +9,7 @@ Outputs the first 10 lines of a file.
   
 ### tail
 Opposite of tail (obviously huh?). Outputs the last ten lines of a file.  
-`tail`{{execute}}
+`tail lorem`{{execute}}
 
 ### more
 Spits contents of a file in bits, allowing you to scroll through the contents in consummable portions. Particularly handy for going through a large file with hundreds of lines.  

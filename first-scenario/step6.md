@@ -5,9 +5,9 @@
 `find . -name file1`{{execute}}  
   
 Finds all the files whose file names start with **file** (e.g file1, file2, file-test, file.txt etc.)  
-`find . file*`{{execute}}  
+`find . -name 'file*'`{{execute}}  
   
 The **-name** flag tells the command to search for specific name (file1 in this case). Notice we specified the path to search for the file after the **find** command as **.**.  
   
 Search for files inside the pbl directory  
-`find pbl file*`{{execute}}
+`find pbl -name 'file*'`{{execute}}

@@ -9,10 +9,10 @@ To check the current owner (user and group) of a file
 `ls -l darey`{{execute}}  
 The third and fourth columns show the current owners (user and group) of the file.
 The ownership for any file or directory can be changed as follows:  
-`chown user:group darey`{{execute}}  
+`chown user:group darey`  
 Where user designates the user you want to change the ownership to, and group designates the group (you can change this values as you wish)  
 To recursively change ownerships of files in a directory, including the directory, use the **-R** flag  
-`chown -R dare:developers pbl`  
+`chown -R dare:developers pbl`{{execute}}  
   
 ### chmod Command
 **chmod** is used to change the permissions on a file or directory. Permissions control who can use what actions on a resource.  
