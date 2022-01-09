@@ -24,6 +24,8 @@ You can also combine flags. The example below does a listing of all the files so
   
 Click:  
 `mkdir darey.io`{{execute}}  
+To make the directory (or any file) hidden, its name should start with a **.**.  
+`mkdir .linux`{{execute}}  
   
 Now you've learned how to create directories, but how do you enter them?
 ### The cd Command
