@@ -12,7 +12,7 @@ Create more files in the same directory (using the **touch** command above which
 To list all the contents including hidden files and directories, use the '-a' flag  
 `ls -a`{{execute}}
   
-To list contents, sorted newest first, use the '-t' flag
+To list contents, sorted newest first, use the '-t' flag  
 `ls -t`{{execute}}  
   
 You can also combine flags. The example below does a listing of all the files sorted by the time they were created  
@@ -23,7 +23,7 @@ You can also combine flags. The example below does a listing of all the files so
 mkdir (a concatenation of the words **make** and **directory**) is used to create directories on your system.  
   
 Click:  
-`mkdir darey.io`{{excute}}  
+`mkdir darey.io`{{execute}}  
   
 Now you've learned how to create directories, but how do you enter them?
 ### The cd Command
@@ -39,9 +39,12 @@ The cp command also copy directories (use the -r flag to recursively copy the co
   
 `cp darey darey.io/`{{execute}}  
   
+Check your current directory using pwd
+`pwd`{{execute}}  
+  
+Now cd back to the previous directory  
+`cd ..`{{execute}}
+  
 The first argument describes the file (or directory) you want to copy, the second argument defines its destinatio.  
 You can copy multiple files to the same destination by specifying the files first and the destination last. For example:  
 `cp katie john darey.io/`{{execute}}
-  
-Side Task:  
-Using what you've learned so far, create a directory in the darey.io directory, create some files in there and list the content of the directory  

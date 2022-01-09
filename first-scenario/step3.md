@@ -7,3 +7,15 @@ We'll move some of them to the pbl directory.
 `mv file1 pbl/`{{execute}}  
 Or to rename a file  
 `mv file2 darey2`{{execute}}
+  
+### The rm Command
+The **rm** command (remove) is used to delete files, directories or any object that exists on your system.  
+  
+`rm file3`{{execute}}
+  
+To remove directories:  
+  
+`rm -rf darey.io`{{execute}}  
+The **-r** tells to rm command to delete recursively (delete the contents in the directory) and **-f** forces the deletion.  
+
+
