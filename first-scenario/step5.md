@@ -6,7 +6,7 @@ Group
 Others  
 The **chown** command changes the ownershp of a resource (file or directory)  
 To check the current owner (user and group) of a file  
-`ls darey`{{execute}}  
+`ls -l darey`{{execute}}  
 The third and fourth columns show the current owners (user and group) of the file.
 The ownership for any file or directory can be changed as follows:  
 `chown user:group darey`{{execute}}  
@@ -22,8 +22,8 @@ READ - 4
 WRITE - 2  
 EXECUTE - 1  
 List the contents of your current directory  
-`ls`{{execute}}  
-The leftmost column shows the permissions associated with that file or directory.  
+`ls -l`{{execute}}  
+The leftmost column shows the permissions associated with that file or directory. r is read, w write, x execute. 
 To set permissions on a resource with **chmod**, you add the modes above that you want to set. The modes comprise of the digits, first sets permissions for user, second for group and third digit sets permissions for others.  
   
 `chmod 400 darey`{{execute}}  

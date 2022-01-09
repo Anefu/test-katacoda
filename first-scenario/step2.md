@@ -37,13 +37,12 @@ Some examples for you:
 cp (short for **copy**) does what its name implies; copies files! (That rhymes by the way)  
 The cp command also copy directories (use the -r flag to recursively copy the contents of the directory too). For example:  
   
-`cp darey darey.io/`{{execute}}  
-  
-Check your current directory using pwd
+Check your current directory using pwd  
 `pwd`{{execute}}  
   
 Now cd back to the previous directory  
-`cd ..`{{execute}}
+`cd ..`{{execute}}  
+`cp darey darey.io/`{{execute}}  
   
 The first argument describes the file (or directory) you want to copy, the second argument defines its destinatio.  
 You can copy multiple files to the same destination by specifying the files first and the destination last. For example:  
