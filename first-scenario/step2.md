@@ -1,7 +1,7 @@
 # Files and Filesystem
 ### ls Command
-ls lists the contents of a directory.  
-You can pass in various flags to the ls command, depending on what you want to do.  
+**ls** lists the contents of a directory.  
+You can pass in various flags to the **ls** command, depending on what you want to do.  
 First let's create some files  
 
 `touch darey katie john`{{execute}}  
@@ -20,28 +20,30 @@ You can also combine flags. The example below does a listing of all the files so
 
   
 ### mkdir Command
-mkdir (a concatenation of the words **make** and **directory**) is used to create directories on your system.  
+**mkdir** (a concatenation of the words **make** and **directory**) is used to create directories on your system.  
   
 Click:  
 `mkdir darey.io`{{execute}}  
   
 Now you've learned how to create directories, but how do you enter them?
 ### The cd Command
-cd (change directory) moves you in the directory you specify.  
+**cd** (change directory) moves you in the directory you specify.  
 Running cd with any options just returns you back to the home directory of your current user.  
 Some examples for you:  
   
 `cd darey.io`{{execute}}
 
 ### The cp Command
-cp (short for **copy**) does what its name implies; copies files! (That rhymes by the way)  
-The cp command also copy directories (use the -r flag to recursively copy the contents of the directory too). For example:  
+**cp** (short for **copy**) does what its name implies; copies files! (That rhymes by the way)  
+The **cp** command also copy directories (use the -r flag to recursively copy the contents of the directory too). For example:  
   
 Check your current directory using pwd  
 `pwd`{{execute}}  
   
 Now cd back to the previous directory  
 `cd ..`{{execute}}  
+  
+Try out your first copy command  
 `cp darey darey.io/`{{execute}}  
   
 The first argument describes the file (or directory) you want to copy, the second argument defines its destinatio.  
