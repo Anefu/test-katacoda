@@ -30,7 +30,8 @@
       },
       {
         "title": "Step 6",
-        "text": "step6.md"
+        "text": "step6.md",
+        "background": "step6.sh"
       },
       {
         "title": "Step 7",

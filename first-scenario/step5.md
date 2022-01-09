@@ -14,6 +14,8 @@ Where user designates the user you want to change the ownership to, and group de
 To recursively change ownerships of files in a directory, including the directory, use the **-R** flag  
 `chown -R dare:developers pbl`{{execute}}  
   
+`ls -l pbl`{{execute}}
+  
 ### chmod Command
 **chmod** is used to change the permissions on a file or directory. Permissions control who can use what actions on a resource.  
 A file permission of READ ONLY prevents editing the file (or contents of the directory as the case may be).  
@@ -29,4 +31,14 @@ To set permissions on a resource with **chmod**, you add the modes above that yo
 `chmod 400 darey`{{execute}}  
 This sets the permission for the current **USER** to **READ** and the permissions for the **GROUP** - designated by the first 0 - to nothing (no permissions), same for the **OTHERS** (designated by the last 0).  
 To allow read and write actions for user and group:  
-`chmod 660 darey`{{execute}}
+`chmod 660 darey`{{execute}}  
+  
+You can also set permissions by using letters (instead of modes). This allows you to set permissions for one entity (user, group or others) at a time.  
+Example below adds execute permissions to the user for the file **darey**:  
+`chmod u+x darey`{{execute}}  
+The three letters, corresponding to the three entities in Linux are u - for user, g - for group and o for others.  
+
+One more example to demonstrate. The command below adds write permissions for **OTHERS**.  
+`chmod o+w darey`{{execute}}  
+Check the current permissions on the file to confirm  
+`ls -l darey`{{execute}}  
