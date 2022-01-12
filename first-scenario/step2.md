@@ -1,5 +1,5 @@
 # Files and Filesystem 
->> List the contents of the current working directory. What is the the most recently created file? <<
+>> List the contents of the current working directory. What is the name of the largest file? <<
 === clara
 
 >> Which of these flags cannot be used with the ls command? <<
@@ -12,7 +12,7 @@
 ( ) 400
 ( ) 660
 ( ) 760
-( ) 444
+(*) 444
    
 >> Create a directory called pbl <<
   
