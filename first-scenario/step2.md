@@ -14,9 +14,7 @@
 ( ) 760
 (*) 444
    
->> Create a directory called pbl <<
-  
->> Change into the directory. Copy and paste your current working directory here: <<
+>> Create a directory called pbl. Change into the directory. Copy and paste your current working directory here: <<
 === /root/pbl
   
 Change back to the previous directory and copy the clara file to the pbl directory
